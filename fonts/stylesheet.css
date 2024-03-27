@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Klementina';
+    src: url('Klementina.eot');
+    src: local('Klementina'),
+        url('Klementina.eot?#iefix') format('embedded-opentype'),
+        url('Klementina.woff2') format('woff2'),
+        url('Klementina.woff') format('woff'),
+        url('Klementina.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

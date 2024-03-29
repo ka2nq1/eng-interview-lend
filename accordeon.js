@@ -1,7 +1,9 @@
 // const accordItem = document.querySelectorAll(".accordion-item");
-// const programList = document.querySelector(".program-list");
-// const programBtn = document.querySelector(".expanded-btn");
-// const programBtnText = document.querySelector(".btn-text");
+const programList = document.querySelector(".program-list");
+const programListItem = document.querySelector(".program-list li");
+const programBtn = document.querySelector(".open-program-btn");
+const programBtnText = document.querySelector(".program-btn-text");
+const programBtnImg = document.querySelector(".program-btn-img");
 // accordItem.forEach((e) => {
 //     e.addEventListener("click", toggleItem, false);
 // });
@@ -20,18 +22,24 @@
 //     }
 // }
 
-// programBtn.addEventListener("click", toggleList, false);
+programBtn.addEventListener("click", toggleList, false);
 
-// function toggleList() {
-//     const isExpanded = programList.classList.contains("collapse");
+function toggleList() {
+    const isExpanded = !programList.classList.contains("collapse");
 
-//     if (isExpanded) {
-//         programList.classList.remove("collapse")
-//         this.classList.add("expanded")
-//         programBtnText.textContent = "Згорнути";
-//     } else {
-//         programList.classList.add("collapse")
-//         this.classList.remove("expanded")
-//         programBtnText.textContent = "Розгорнути";
-//     }
-// }
+    if (isExpanded) {
+        programList.classList.add("collapse")
+        programBtnText.textContent = "згорнути";
+        programBtnImg.style.transform = "rotate(180deg)";
+        // if (window.innerWidth > 1199) {
+        //     programListItem.style.minHeight = "36rem"
+        // } else {
+            programListItem.style.minHeight = "36rem"
+        // }
+    } else {
+        programList.classList.remove("collapse")
+        programBtnText.textContent = "розгорнути";
+        programBtnImg.style.transform = "rotate(0deg)";
+        programListItem.style.minHeight = "auto"
+    }
+}

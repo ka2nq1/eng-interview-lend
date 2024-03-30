@@ -26,6 +26,7 @@
 </head>
 
 <body>
+    <div class="bottom-bg-wrap"></div>
     <header class="container">
         <div class="header-top">
             <div class="header-top-item">
@@ -85,24 +86,25 @@
             </div>
         </div>
         <div class="mobile-price-wrap">
-            <img src="images/price-bg.png" alt="">
-            <div class="price">
-                <p class="new"><span>349</span> грн</p>
-                <p class="old"><span>1167</span> грн</p>
-            </div>
-            <a class="btn" href="">Приєднатись до курсу</a>
-            <div class="timer-wrap">
-                <div class="timer-second-wrap">
-                    <div id="timer">23 : 59 : 59</div>
-                </div>
-            </div>
-        </div>
-        <div class="mobile-bottom-wrap">
             <ul>
                 <li>Незалезно від початкового рівня<br>Англійської мови</li>
                 <li>Більше 1000 учнів отримали<br>РОБОТУ своєї МРІЇ</li>
                 <li>Зроби переломний СТРИБОК<br>у КАР'ЄРІ з нами</li>
             </ul>
+            <img class="line" src="images/line.svg" alt="">
+            <img class="price-bg" src="images/price-bg.png" alt="">
+            <div class="price">
+                <p class="new"><span>349</span> грн</p>
+                <p class="old"><span>1167</span> грн</p>
+            </div>
+            <a class="btn" href="">Приєднатись до курсу<br>зі знижкою -71%</a>
+            <div class="timer-wrap">
+                <div class="timer-second-wrap">
+                    <div id="timer-mob">23 : 59 : 59</div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-bottom-wrap">
             <div class="bonus-wrap">
                 <ul>
                     <li>
@@ -124,7 +126,7 @@
     <section class="for-whom container">
         <div class="wrap-1">
             <h3 class="title">цей курс для ТЕБЕ якщо</h3>
-            <ul>
+            <ul class="desk">
                 <li>
                     <img src="images/whom-1.png" alt="">
                     <p class="top-text">Мрієш про<br>СТРИБОК у кар'єрі</p>
@@ -134,14 +136,45 @@
                 <li class="second-item">
                     <img src="images/whom-2.png" alt="">
                     <p class="top-text">Шукаєш РОБОТУ у<br>англомовному<br>середовищі</p>
-                    <p class="bottom-text">Вразь роботодавця вишуканою<br>англійською мовою:<br>зазначити свою цінність
+                    <p class="bottom-text">Вразь роботодавця вишуканою<br>англійською мовою:<br>зазначити свою
+                        цінність
                         =<br>отримати вище зарплатню</p>
                 </li>
                 <li>
                     <img src="images/whom-3.png" alt="">
                     <p class="top-text">хочеш ІНВЕСТувати<br>капітал</p>
-                    <p class="bottom-text">Підвищення рівня володіння<br>мовою - це інвестиція в себе, яка<br>ніколи не
+                    <p class="bottom-text">Підвищення рівня володіння<br>мовою - це інвестиція в себе, яка<br>ніколи
+                        не
                         втратить цінності</p>
+                </li>
+            </ul>
+            <ul class="mobile">
+                <li>
+                    <img src="images/whom-mob-1.png" alt="">
+                    <div class="right-container">
+                        <p class="top-text">Мрієш про<br>СТРИБОК у кар'єрі</p>
+                        <p class="bottom-text">Прагнеш професійного<br>ЗРОСТАННЯ та отримання<br>вакансії у
+                            міжнародній
+                            компанії</p>
+                    </div>
+                </li>
+                <li class="second-item">
+                    <img src="images/whom-mob-2.png" alt="">
+                    <div class="right-container">
+                        <p class="top-text">Шукаєш РОБОТУ<br>у англомовному<br>середовищі</p>
+                        <p class="bottom-text">Вразь роботодавця<br>вишуканою англійською<br>мовою: зазначити
+                            свою<br>цінність
+                            = отримати вище<br>зарплатню</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/whom-mob-3.png" alt="">
+                    <div class="right-container">
+                        <p class="top-text">хочеш ІНВЕСТувати<br>капітал</p>
+                        <p class="bottom-text">Підвищення рівня володіння<br>мовою - це інвестиція в себе,<br>яка
+                            ніколи не
+                            втратить<br>цінності</p>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -158,7 +191,8 @@
                 <li style="margin-bottom: 4.8rem;">Граматичні коментарі</li>
                 <li style="margin-bottom: 4.6rem;">Поурочний онлайн СЛОВНИК у застосунку Quizlet</li>
                 <li style="margin-bottom: 3rem;">ЧАТ з одногрупниками<br>та викладачем</li>
-                <li><span>1 відео БОНУС-ПОДАРУНОК</span><br>Розбір помилок на співбесіді<br>або як уникнути халепи</li>
+                <li><span>1 відео БОНУС-ПОДАРУНОК</span><br>Розбір помилок на співбесіді<br>або як уникнути халепи
+                </li>
             </ul>
         </div>
         <img class="img-3 mobile" src="images/img-3.jpg" alt="">
@@ -191,7 +225,11 @@
                         </div>
                         <img class="item-header-img" src="images/p1.png" alt="">
                     </div>
-                    <p class="item-text">З чого почати розмову на співбесіді, щоб «розтопити лід», зняти загальну напругу, розташувати співрозмовника. Як правильно аналізувати вивчену заздалегіть інформацію про компанію та відомості про людину, яка буде проводити інтерв’ю. Як продумати свою промову-презентацію. Як не сказати зайвого через знервованість на співбесіді.</p>
+                    <p class="item-text">З чого почати розмову на співбесіді, щоб «розтопити лід», зняти загальну
+                        напругу, розташувати співрозмовника. Як правильно аналізувати вивчену заздалегіть інформацію
+                        про
+                        компанію та відомості про людину, яка буде проводити інтерв’ю. Як продумати свою
+                        промову-презентацію. Як не сказати зайвого через знервованість на співбесіді.</p>
                 </li>
                 <li>
                     <div class="item-header">
@@ -201,7 +239,11 @@
                         </div>
                         <img class="item-header-img" src="images/p2.png" alt="">
                     </div>
-                    <p class="item-text">Як відповідаючи на це питання не заглибитись у детальний переказ власного резюме, адже ця частина співбесіди не про це. Фрази та вислови англійською, що допоможуть вам підкреслити важливі моменти вашого досвіду та розповісти історію із вашого життя - що саме привело вас на цю співбесіду та робить ідеальним кандидатом на цю вакансію.</p>
+                    <p class="item-text">Як відповідаючи на це питання не заглибитись у детальний переказ власного
+                        резюме, адже ця частина співбесіди не про це. Фрази та вислови англійською, що допоможуть
+                        вам
+                        підкреслити важливі моменти вашого досвіду та розповісти історію із вашого життя - що саме
+                        привело вас на цю співбесіду та робить ідеальним кандидатом на цю вакансію.</p>
                 </li>
                 <li>
                     <div class="item-header">
@@ -211,7 +253,9 @@
                         </div>
                         <img class="item-header-img" src="images/p3.png" alt="">
                     </div>
-                    <p class="item-text">Як висвітлити найголовніше, розповідаючи про освіту. Major та Minor вашої вищої освіти, як англійською описувати додаткові курси та підвищення кваліфікації.</p>
+                    <p class="item-text">Як висвітлити найголовніше, розповідаючи про освіту. Major та Minor вашої
+                        вищої
+                        освіти, як англійською описувати додаткові курси та підвищення кваліфікації.</p>
                 </li>
                 <li>
                     <div class="item-header">
@@ -231,7 +275,9 @@
                         </div>
                         <img class="item-header-img" src="images/p5.png" alt="">
                     </div>
-                    <p class="item-text">Як відповідати на “tricky questions” (незручні питання) щодо попереднього місця роботи та причин лишити колишню посаду.</p>
+                    <p class="item-text">Як відповідати на “tricky questions” (незручні питання) щодо попереднього
+                        місця
+                        роботи та причин лишити колишню посаду.</p>
                 </li>
                 <li>
                     <div class="item-header">
@@ -241,7 +287,9 @@
                         </div>
                         <img class="item-header-img" src="images/p6.png" alt="">
                     </div>
-                    <p class="item-text">Ідеї що саме підкреслити, як сильні сторони, з метою зацікавити рекуртера та інтерв’юера.</p>
+                    <p class="item-text">Ідеї що саме підкреслити, як сильні сторони, з метою зацікавити рекуртера
+                        та
+                        інтерв’юера.</p>
                 </li>
                 <li>
                     <div class="item-header">
@@ -251,7 +299,8 @@
                         </div>
                         <img class="item-header-img" src="images/p7.png" alt="">
                     </div>
-                    <p class="item-text">Як не стати посміховиськом, описуючи свої слабкі сторони. Мовні хитрощі, як обернути ваші недоліки на плюси в очах потенційного нового роботодавця.</p>
+                    <p class="item-text">Як не стати посміховиськом, описуючи свої слабкі сторони. Мовні хитрощі, як
+                        обернути ваші недоліки на плюси в очах потенційного нового роботодавця.</p>
                 </li>
                 <li>
                     <div class="item-header">
@@ -261,7 +310,9 @@
                         </div>
                         <img class="item-header-img" src="images/p8.png" alt="">
                     </div>
-                    <p class="item-text">Як не провалити ту саму важливу частину інтерв’ю, де йдеться про гроші. Корисні вислови, що допоможуть “продати себе” дороще.</p>
+                    <p class="item-text">Як не провалити ту саму важливу частину інтерв’ю, де йдеться про гроші.
+                        Корисні
+                        вислови, що допоможуть “продати себе” дороще.</p>
                 </li>
                 <li>
                     <div class="item-header">
@@ -271,7 +322,8 @@
                         </div>
                         <img class="item-header-img" src="images/p9.png" alt="">
                     </div>
-                    <p class="item-text">Як коректно лексично, граматично та з урахуванням культурних особливостей англійської мови ставити додаткові питання про вакансію на співбесіді.</p>
+                    <p class="item-text">Як коректно лексично, граматично та з урахуванням культурних особливостей
+                        англійської мови ставити додаткові питання про вакансію на співбесіді.</p>
                 </li>
                 <li>
                     <div class="item-header">
@@ -281,7 +333,8 @@
                         </div>
                         <img class="item-header-img" src="images/p10.png" alt="">
                     </div>
-                    <p class="item-text">Вислови англійською, як не зіпсувати враження інтерв’юера та завершити зустрічь, залишивши по собі гарне враження.</p>
+                    <p class="item-text">Вислови англійською, як не зіпсувати враження інтерв’юера та завершити
+                        зустрічь, залишивши по собі гарне враження.</p>
                 </li>
                 <li>
                     <p class="module">модуль 11</p>
@@ -292,7 +345,11 @@
                         </div>
                         <img class="item-header-img" src="images/p11.png" alt="">
                     </div>
-                    <p class="item-text">Відмови завжди мають мотив, і справжній далеко не завжди повідомляється кандидату. Причина може бути і у резюме, у поведінці, у словах. Розбір невдалих відповідей на інтерв’ю навчить вас як уникнути незручних ситуацій, обертаючи їх на свою користь та не потрапити у халепу під час співбесіди</p>
+                    <p class="item-text">Відмови завжди мають мотив, і справжній далеко не завжди повідомляється
+                        кандидату. Причина може бути і у резюме, у поведінці, у словах. Розбір невдалих відповідей
+                        на
+                        інтерв’ю навчить вас як уникнути незручних ситуацій, обертаючи їх на свою користь та не
+                        потрапити у халепу під час співбесіди</p>
                 </li>
             </ul>
             <div class="open-program-btn">
@@ -301,6 +358,156 @@
             </div>
         </div>
     </section>
+    <section class="after container">
+        <h3 class="title">Що ви отримаєте після курсу</h3>
+        <ul>
+            <li>
+                <img class="desk desk-bg" src="images/after-bg.svg" alt="">
+                <div class="number">
+                    <span>01</span>
+                    <img src="images/after-mark.svg" alt="">
+                </div>
+                <p>Ви отримаєте інструкції як підготуватися до співбесіди та успішно її пройти.</p>
+            </li>
+            <li>
+                <img class="desk desk-bg" src="images/after-bg.svg" alt="">
+                <div class="number mobile">
+                    <span>02</span>
+                    <img src="images/after-mark.svg" alt="">
+                </div>
+                <p>Курс допоможе вам уникнути 90% помилок, які ведуть до відмов на одному із відбіркових етапів
+                    вакансії.</p>
+                <div class="number desk">
+                    <span>02</span>
+                    <img src="images/after-mark.svg" alt="">
+                </div>
+            </li>
+            <li>
+                <div class="number">
+                    <span>03</span>
+                    <img src="images/after-mark.svg" alt="">
+                </div>
+                <p>Навчитесь як недоліки та слабкі риси обернути на свою користь, привернути увагу рекрутера та
+                    інтервюера та виділитися на тлі інших кадидатів.</p>
+            </li>
+            <li>
+                <div class="number mobile">
+                    <span>04</span>
+                    <img src="images/after-mark.svg" alt="">
+                </div>
+                <p>Позбудетесь соромязливості завдяки вивченню необхідних англійських фраз та слів для успішної
+                    співбесіди та отримаєте довгоочікувану роботу вашої мрії!</p>
+                <div class="number desk">
+                    <span>04</span>
+                    <img src="images/after-mark.svg" alt="">
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="slider container">
+        <img class="mobile slider-title" src="images/slider-title-mob.jpg" alt="">
+        <img class="desk slider-title" src="images/slider-title-desk.jpg" alt="">
+        <img class="btns-wrap" src="images/slider-btns-wrap.svg" alt="">
+        <div class="slider-wrap">
+            <div class="slider-item">
+                <a href="https://www.youtube.com/watch?v=QhDJEhQIuI4&ab_channel=KarinaLingvot">
+                    <img src="images/fb1.jpg" alt="slider-img">
+                </a>
+            </div>
+            <div class="slider-item">
+                <a href="https://youtu.be/NT4XtIkrP00">
+                    <img src="images/fb2.jpg" alt="slider-img">
+                </a>
+            </div>
+            <div class="slider-item">
+                <a href="https://youtu.be/vT-6LEXxEd8">
+                    <img src="images/fb3.jpg" alt="slider-img">
+                </a>
+            </div>
+            <div class="slider-item">
+                <a href="https://youtu.be/IwLbU0negcY">
+                    <img src="images/fb4.jpg" alt="slider-img">
+                </a>
+            </div>
+            <div class="slider-item">
+                <a href="https://youtu.be/y31mMsv0UNo">
+                    <img src="images/fb5.jpg" alt="slider-img">
+                </a>
+            </div>
+            <div class="slider-item">
+                <a href="https://youtu.be/tgYLXDgQ2N0">
+                    <img src="images/fb6.jpg" alt="slider-img">
+                </a>
+            </div>
+            <div class="slider-item">
+                <a href="https://youtu.be/-lfeOgFTSq4">
+                    <img src="images/fb7.jpg" alt="slider-img">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="duration">
+        <h3 class="title">Як буде проходити курс</h3>
+        <img class="mobile" src="images/duration-mob.jpg" alt="">
+        <img class="desk" src="images/duration-desk.jpg" alt="">
+    </section>
+    <section id="FAQ" class="container FAQ">
+        <h3 class="title mobile">запитаня<br>та відповіді</h3>
+        <h3 class="title desk">запитаня та відповіді</h3>
+        <div class="accordion-container">
+            <div class="accordion-item active">
+                <div class="accordion-header">
+                    <p>Чи допоможе мені курс якщо я тільки планую шукати нове місце роботи?</p>
+                </div>
+                <div class="accordion-content">
+                    <p>Навіть якщо у вас немає співбесіди за два тижні, курс надасть вам навички, що залишуться з
+                        вами назавжди: впевнена англійська мова відкриє для вас безліч нових можливостей та нових
+                        вакансій.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <p>Якщо наразі моя англійська десь на побутовому рівні чи підійде мені цей курс?</p>
+                </div>
+                <div class="accordion-content">
+                    <p>Завдяки детальним коментарям, лексичним та граматичним, ви можете навчатись на цьому курсі
+                        незалежно від початкового рівня мови, адже курс сконцентрований на вузькій темі - підготовці
+                        по співбесіди - та відпрацюванню відповідей на типові питання, а також хитрощах при
+                        “незручних” питаннях інтерв'юера.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <p>Чи можу я подовжити доступ до курсу якщо не встигну опанувати його за місяць?</p>
+                </div>
+                <div class="accordion-content">
+                    <p>Доступ до курсу - місяць. Але якщо за якихось обставин не встигли вивчити весь матеріал -
+                        доспут до курсу можна подовжити.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <p>Чи буде курс корисним для кандидатів з достатньо високим рівнем знань англійської мови?</p>
+                </div>
+                <div class="accordion-content">
+                    <p>Курс створено таким чином, що незалежно від вашого рівня володіння мовою, ви обовязково
+                        отримаєте щось нове корисне і дуже практичне для використання відразу.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container">
+        <div class="footer-top-wrap">
+            <p class="policy">Політика конфіденційності<br>Договір публічної оферти</p>
+            <p class="secur">Усі права захищені.<br>Будь-яке копіювання матеріалів<br>дозволяється тільки за
+                погодженням<br>правовласників.</p>
+        </div>
+        <div class="footer-bottom-wrap">
+            <p class="contact">Контакти</p>
+            <p>Інстаграм: @lingvot.en</p>
+            <p>Ел пошта: <a href="mailto:lingvoten@gmail.com">lingvoten@gmail.com</a></p>
+        </div>
+    </footer>
 </body>
 
 </html>

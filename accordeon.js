@@ -1,26 +1,26 @@
-// const accordItem = document.querySelectorAll(".accordion-item");
+const accordItem = document.querySelectorAll(".accordion-item");
 const programList = document.querySelector(".program-list");
 const programListItem = document.querySelector(".program-list li");
 const programBtn = document.querySelector(".open-program-btn");
 const programBtnText = document.querySelector(".program-btn-text");
 const programBtnImg = document.querySelector(".program-btn-img");
-// accordItem.forEach((e) => {
-//     e.addEventListener("click", toggleItem, false);
-// });
+accordItem.forEach((e) => {
+    e.addEventListener("click", toggleItem, false);
+});
 
-// function toggleItem() {
-//     const isActive = this.classList.contains("active");
+function toggleItem() {
+    const isActive = this.classList.contains("active");
 
-//     accordItem.forEach((e) => {
-//         if (e.classList.contains("active")) {
-//             e.classList.remove("active")
-//         }
-//     })
+    accordItem.forEach((e) => {
+        if (e.classList.contains("active")) {
+            e.classList.remove("active")
+        }
+    })
 
-//     if (!isActive) {
-//         this.classList.add("active")
-//     }
-// }
+    if (!isActive) {
+        this.classList.add("active")
+    }
+}
 
 programBtn.addEventListener("click", toggleList, false);
 
@@ -31,11 +31,7 @@ function toggleList() {
         programList.classList.add("collapse")
         programBtnText.textContent = "згорнути";
         programBtnImg.style.transform = "rotate(180deg)";
-        // if (window.innerWidth > 1199) {
-        //     programListItem.style.minHeight = "36rem"
-        // } else {
-            programListItem.style.minHeight = "36rem"
-        // }
+        programListItem.style.minHeight = "36rem"
     } else {
         programList.classList.remove("collapse")
         programBtnText.textContent = "розгорнути";

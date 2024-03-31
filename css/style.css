@@ -6,6 +6,11 @@ header {
     position: relative;
     z-index: 1;
 }
+.timer-wrap-down {
+    position: relative;
+    z-index: 1;
+    bottom: 0;
+}
 
 .timer-second-wrap {
     border: 1px solid #ddd;
@@ -253,7 +258,7 @@ header .bonus-wrap .bonus-img {
 
 header .bonus-wrap .bonus-text span {
     font-family: var(--font-family);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.4rem;
     line-height: 143%;
     color: #eb5658;
@@ -301,7 +306,7 @@ header .bonus-wrap .bonus-text {
 
 .for-whom .wrap-1 .top-text {
     font-family: var(--font-family);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.6rem;
     line-height: 125%;
     text-transform: uppercase;
@@ -354,7 +359,7 @@ header .bonus-wrap .bonus-text {
 
 .for-whom .iphone-list-mob li span {
     color: #eb5658;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .for-whom .iphone-list-mob .iphone-img {
@@ -371,6 +376,8 @@ header .bonus-wrap .bonus-text {
 .author img {
     width: calc(100% + 9.2rem);
     margin-left: -4.6rem;
+    border-radius: 56px;
+    box-shadow: 0 15px 100px 0 rgba(0, 0, 0, 0.05);
 }
 
 .author .title {
@@ -478,7 +485,7 @@ header .bonus-wrap .bonus-text {
 .program .subtitle {
     margin-top: 1rem;
     font-family: var(--font-family);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.6rem;
     line-height: 125%;
     letter-spacing: 0.08em;
@@ -531,7 +538,7 @@ header .bonus-wrap .bonus-text {
     align-items: center;
     justify-content: center;
     font-family: var(--font-family);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.6rem;
     line-height: 125%;
     text-transform: uppercase;
@@ -549,7 +556,7 @@ header .bonus-wrap .bonus-text {
 
 .program .program-list .module-title {
     font-family: var(--font-family);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.5rem;
     line-height: 133%;
     text-transform: uppercase;
@@ -582,7 +589,7 @@ header .bonus-wrap .bonus-text {
 
 .program .open-program-btn .program-btn-text {
     font-family: var(--font-family);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.6rem;
     line-height: 125%;
     letter-spacing: 0.1em;
@@ -724,7 +731,7 @@ header .bonus-wrap .bonus-text {
     padding-top: 0;
     margin-top: -18.9rem;
     position: relative;
-    z-index: 1;
+    z-index: 0;
 }
 
 .duration .title {
@@ -777,7 +784,7 @@ header .bonus-wrap .bonus-text {
 }
 
 .FAQ .accordion-header p {
-    font-weight: 600;
+    font-weight: 500;
     color: #eb5658;
     padding-right: 8rem;
     font-size: 1.6rem;
@@ -1053,7 +1060,7 @@ footer .contact {
 
     .desk-bonus-wrap .bonus-text span {
         font-family: var(--font-family);
-        font-weight: 600;
+        font-weight: 500;
         font-size: 2.5rem;
         line-height: 143%;
         color: #eb5658;
@@ -1537,7 +1544,7 @@ footer .contact {
     .for-whom .wrap-1 .top-text {
         text-align: left;
         font-family: var(--font-family);
-        font-weight: 600;
+        font-weight: 500;
         font-size: 1.6rem;
         line-height: 125%;
         text-transform: uppercase;

@@ -191,6 +191,7 @@ body {
         background-repeat: no-repeat;
         background-size: 190rem;
         padding-bottom: 14.5rem;
+        background-position: center;
     }
     .selection-desc {
         justify-content: center;

@@ -858,6 +858,22 @@ footer .contact {
     margin-bottom: 2rem;
 }
 
+.cont {
+    z-index: 10;
+    display: none;
+}
+.cont-fixed {
+    position: fixed;
+    bottom: 0rem;
+    transform: translate(-50%);
+    left: 50%;
+    width: 100%;
+    z-index: 1;
+    padding: 0rem 2rem 2rem 2rem;
+    border-radius: 6rem 6rem 0 0;
+    background: white;
+}
+
 @media (min-width: 1200px) {
     header {
         padding-top: 5.3rem;

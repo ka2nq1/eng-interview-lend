@@ -114,21 +114,6 @@ section {
     color: #fff;
     font-size: 1.4rem;
 }
-.cont {
-    z-index: 10;
-    display: none;
-}
-.cont-fixed {
-    position: fixed;
-    bottom: 0rem;
-    transform: translate(-50%);
-    left: 50%;
-    width: 100%;
-    z-index: 1;
-    padding: 0rem 2rem 2rem 2rem;
-    border-radius: 6rem 6rem 0 0;
-    background: white;
-}
 
 .btn1 {
     margin: 1rem 0 7.2rem 0;

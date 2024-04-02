@@ -6,6 +6,7 @@ header {
     position: relative;
     z-index: 1;
 }
+
 .timer-wrap-down {
     position: relative;
     z-index: 1;
@@ -745,6 +746,24 @@ header .bonus-wrap .bonus-text {
     border-radius: 40px;
 }
 
+.guaranty {
+    padding-top: 7.5rem;
+    padding-bottom: -3rem;
+}
+
+.guaranty img {
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.guaranty p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+}
+
 .FAQ .title {
     margin-bottom: 5rem;
 }
@@ -862,6 +881,7 @@ footer .contact {
     z-index: 10;
     display: none;
 }
+
 .cont-fixed {
     position: fixed;
     bottom: 0rem;
@@ -1449,6 +1469,29 @@ footer .contact {
         border-radius: 60px;
     }
 
+    .guaranty {
+        padding-top: 15rem;
+    }
+
+    .guaranty .guaranty-content-wrap {
+        display: flex;
+        gap: 5.9rem;
+        flex-direction: row-reverse;
+        margin-top: 7rem;
+        justify-content: center;
+    }
+    
+    .guaranty img {
+        width: 40rem;
+        margin: 0;
+    }
+    
+    .guaranty p {
+        font-size: 1.8rem;
+        line-height: 167%;
+        width: 51.1rem;
+    }
+
     .FAQ .title {
         margin-bottom: 10.7rem;
     }
@@ -1493,14 +1536,33 @@ footer .contact {
     footer {
         display: flex;
         justify-content: space-between;
-        padding-right: 12.5rem !important;
         font-size: 1.8rem;
         line-height: 167%;
+        flex-wrap: wrap;
     }
 
-    footer .policy,
+    footer .footer-bottom-wrap {
+        padding-right: 12.5rem;
+    }
+
     footer .contact {
         margin-bottom: 3rem;
+    }
+
+    footer .policy {
+        margin-top: 8rem;
+    }
+
+    footer .big-text {
+        font-size: 1.5rem;
+        line-height: 167%;
+        min-width: 117rem;
+        margin-top: 8rem;
+    }
+
+    footer .secur {
+        margin-top: 5rem;
+        max-width: 47rem;
     }
 
     .bottom-bg-wrap {
@@ -1636,5 +1698,28 @@ footer .contact {
 
     .slider {
         background-image: url(../images/bg3-mob.jpg);
+    }
+
+    footer .fop {
+        margin-bottom: 2.5rem;
+    }
+
+    footer .footer-top-wrap {
+        margin-bottom: 2.5rem;
+    }
+    footer .secur {
+        margin-bottom: 5rem;
+    }
+
+    footer .contact {
+        margin-bottom: 0;
+    }
+
+    footer .footer-bottom-wrap {
+        margin-bottom: 5rem;
+    }
+
+    footer .big-text {
+        font-size: 1.3rem;
     }
 }

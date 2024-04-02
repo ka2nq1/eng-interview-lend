@@ -132,6 +132,11 @@ section {
     padding: 0 !important;
 }
 
+.red {
+    color: #eb5658;
+    font-weight: 600;
+}
+
 @media (min-width: 1200px) {
     .container {
         padding-left: 1.6rem;

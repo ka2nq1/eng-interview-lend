@@ -277,7 +277,7 @@ body {
         font-size: 2.5rem;
         line-height: 3rem;
         text-align: left;
-        padding: 0rem 0rem 0rem 15rem;
+        padding: 0rem 0rem 8.7rem 15rem;
         text-transform: uppercase;
         color: #fff;
     }
@@ -290,8 +290,6 @@ body {
     .btn-desc {
         align-items: center;
         display: flex;
-        margin-top: 6.5rem;
-        padding-right: 13rem;
     }
     .btn-desc-btn {
         width: 435px;
